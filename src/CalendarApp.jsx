@@ -1,8 +1,12 @@
+import { AppRouter } from "./router"
 
 
 export const CalendarApp = () => {
 
     return(
-        <div>Calendar</div>
+        <>
+            <AppRouter />
+
+        </>
     )
 }
